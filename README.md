@@ -120,14 +120,9 @@ _Generate book outlines and chapter content with AI assistance_
 
 ### Installation
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/KeepSerene/imprintly-ai-e-book-creator-mern.git
-cd imprintly-ai-e-book-creator-mern
-```
 
-2. **Install dependencies**
+1. **Install dependencies**
 
 ```bash
 # Install backend dependencies
@@ -139,7 +134,7 @@ cd ../frontend
 pnpm install
 ```
 
-3. **Set up environment variables**
+2. **Set up environment variables**
 
 Backend (.env in `/backend`):
 
@@ -158,7 +153,7 @@ Frontend (.env in `/frontend`):
 VITE_API_BASE_URL=http://localhost:3000
 ```
 
-4. **Run the application**
+3. **Run the application**
 
 ```bash
 # Terminal 1 - Run backend
@@ -170,7 +165,7 @@ cd frontend
 pnpm run dev
 ```
 
-5. **Open your browser**
+4. **Open your browser**
    Navigate to `http://localhost:5173`
 
 ---
