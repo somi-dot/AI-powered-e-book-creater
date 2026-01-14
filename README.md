@@ -243,17 +243,9 @@ This project is configured for deployment on [Render.com](https://render.com/). 
 3. Serves the frontend from the Express backend in production
 4. Handles all routing through React Router
 
----
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ---
 
@@ -261,48 +253,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
----
 
-## 👨‍💻 Author
 
-**Dhrubajyoti Bhattacharjee** (@KeepSerene)
 
-- Portfolio: [math-to-dev.vercel.app](https://math-to-dev.vercel.app/)
-- GitHub: [@KeepSerene](https://github.com/KeepSerene)
-- LinkedIn: [Dhrubajyoti Bhattacharjee](https://www.linkedin.com/in/dhrubajyoti-bhattacharjee-320822318/)
-- Twitter: [@UsualLearner](https://x.com/UsualLearner)
 
----
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for intelligent content generation
-- Lucide React for beautiful icons
-- The React and Node.js communities
-- All contributors and users of Imprintly
-
----
-
-## 📊 Project Status
-
-This is a portfolio project demonstrating full-stack MERN development skills with modern best practices. The application is fully functional and deployed on Render's free tier.
-
-**Key Highlights:**
-
-- Clean, maintainable code architecture
-- Secure authentication and authorization
-- AI integration for enhanced user experience
-- Responsive design for all screen sizes
-- Production-ready deployment configuration
-
----
-
-<div align="center">
-
-**Made with 💜 by @KeepSerene**
-
-⭐ Star this repo if you found it helpful!
-
-[Live Demo](https://imprintly.onrender.com) • [Report Bug](https://github.com/KeepSerene/imprintly-ai-e-book-creator-mern/issues) • [Request Feature](https://github.com/KeepSerene/imprintly-ai-e-book-creator-mern/issues)
-
-</div>
