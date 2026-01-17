@@ -79,10 +79,12 @@ app.use((err, _, res, next) => {
 // Start server
 async function startServer() {
   await connectToDB();
-  app.listen(ENV.PORT, () => {
-    console.log(`Server running on port ${ENV.PORT}`);
-    console.log(`Environment: ${ENV.NODE_ENV}`);
-  });
+  const PORT = ENV.PORT || process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 }
 
 (async () => {
