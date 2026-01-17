@@ -13,9 +13,9 @@
     "publishing",
     "mern"
   ],
-  "author": "Dhrubajyoti Bhattacharjee",
+  "author": "Soham Mahajan",
   "license": "Apache-2.0",
-  "packageManager": "pnpm@10.22.0",
+ 
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=9.0.0"
