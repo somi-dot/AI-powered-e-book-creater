@@ -17,11 +17,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // for form data
 app.use(
   cors({
-    origin: ENV.NODE_ENV === "production" ? ENV.CLIENT_URL : "*",
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 
 // Routes
 app.use("/api/auth", authRouter);
