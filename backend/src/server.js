@@ -79,7 +79,7 @@ app.use((err, _, res, next) => {
 // Start server
 async function startServer() {
   await connectToDB();
-  const PORT = ENV.PORT || process.env.PORT || 5000;
+  const PORT = ENV.PORT || process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
